@@ -169,7 +169,7 @@ def Loan_Application():
         #temp['EMI']= temp['loan_amnt']/temp['term_d']
         #temp['Balance Income'] = temp['Total_Income']-(temp['EMI']*1000)
 
-        # Columns to drop and afterward Predict up on the feature engineered columns
+        # Columns to drop and afterward Predict up on the feature engineered columns/
         #temp = temp.drop(['applicantIncome', 'coapplicantIncome', 'loan_amnt', 'term_d'], axis=1)
 
 
